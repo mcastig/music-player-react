@@ -79,7 +79,7 @@ Edit `src/data/tracks.ts`, place the audio file in `public/audio/` and the cover
 
 The project is configured for GitHub Pages. Every push to `main` triggers the deploy workflow automatically.
 
-Live URL: `https://<your-username>.github.io/music-player-react/`
+Live URL: `(https://mcastig.github.io/music-player-react/)`
 
 To deploy to a differently named repository, update `base` in `vite.config.ts`:
 
