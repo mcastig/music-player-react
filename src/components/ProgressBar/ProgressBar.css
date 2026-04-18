@@ -1,0 +1,59 @@
+.progress-section {
+  margin-bottom: 20px;
+}
+
+.time-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -8px;
+}
+
+.time-label {
+  font-size: 0.625rem;
+  color: var(--color-secondary);
+  letter-spacing: 0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Range input: cross-browser custom track */
+.progress-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    var(--color-accent) 0%,
+    var(--color-accent) var(--progress, 0%),
+    #e5e7eb var(--progress, 0%),
+    #e5e7eb 100%
+  );
+  transition: height 0.15s ease;
+}
+
+.progress-bar:hover {
+  height: 5px;
+}
+
+/* Webkit thumb */
+.progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+}
+
+/* Firefox thumb */
+.progress-bar::-moz-range-thumb {
+  width: 0;
+  height: 0;
+  border: none;
+  background: transparent;
+}
+
+/* Firefox track */
+.progress-bar::-moz-range-track {
+  background: transparent;
+}

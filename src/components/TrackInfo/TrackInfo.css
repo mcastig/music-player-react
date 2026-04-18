@@ -1,0 +1,22 @@
+.track-info {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.track-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 4px;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.track-author {
+  font-size: 0.75rem;
+  color: var(--color-secondary);
+  margin: 0;
+  letter-spacing: 0.02em;
+}
