@@ -2,6 +2,8 @@
 
 A responsive music player built with React 19, TypeScript, and Vite. Matches a provided UI design with a dark card layout, gradient background, and pink accent color.
 
+**Live demo:** https://mcastig.github.io/music-player-react/
+
 ## Features
 
 - Play / pause the current track
